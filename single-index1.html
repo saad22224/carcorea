@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recrute - Staffing Agency</title>
+
+  <!--=====FAB ICON=======-->
+  <link rel="shortcut icon" href="assets/img/logo/titel1.png" type="image/x-icon">
+
+
+  <!--=====CSS=======-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/nice-select.css">
+  <link rel="stylesheet" href="assets/css/slick-slider.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/aos.css">
+  <link rel="stylesheet" href="assets/css/mobile-menu.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+
+
+
+  <!--=====JQUERY=======-->
+  <script src="assets/js/jquery-3-6-0.min.js"></script>
+</head>
+<style>
+    .car-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .car-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+            padding: 15px;
+        }
+        .car-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .car-card h2 {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        .price {
+            font-size: 22px;
+            font-weight: bold;
+            color: #007bff;
+        }
+        .car-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            font-size: 14px;
+            color: #333;
+        }
+        .car-info span {
+            background: #e9ecef;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        @media (max-width: 767px) {
+    .move-left,
+    .move-right {
+        transform: none !important;
+    }
+    .move-left,
+    .move-right,
+    .fav,
+    .contact-box {
+       text-align: center !important;
+    }
+    .contact-box {
+      display: flex;
+      justify-items: center;
+      justify-content: center;
+    }
+}
+</style>
+<body class="body" style="direction: rtl;">
+
+
+  <!-- Preloader Start -->
+  <div class="preloader">
+    <div class="loading-container">
+      <div class="loading"></div>
+      <div id="loading-icon"><img src="assets/img/logo/titel1.png" alt=""></div>
+    </div>
+  </div>
+  <!-- Preloader End -->
+
+
+  <!--=====progress END=======-->
+
+  <div class="paginacontainer">
+
+    <div class="progress-wrap">
+      <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div>
+
+  </div>
+
+  <!--=====progress END=======-->
+
+  <!--=====HEADER START=======-->
+  <header>
+    <div class="header-area header-area1 header-area-all d-none d-lg-block" id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="header-elements">
+              <div class="site-logo">
+                <a href="index.html">
+                  <img src="assets/img/logo/header-logo1.png" alt="">
+                </a>
+              </div>
+
+
+              <div class="main-menu-ex main-menu-ex1">
+                <ul id="list-example">
+                  <li><a class="list-group-item list-group-item-action" href="#hero">الرئيسية</a></li>
+                  <li><a class="list-group-item list-group-item-action" href="#why">لماذا نحن</a></li>
+                  <li><a class="list-group-item list-group-item-action" href="#cars">السيارات</a></li>
+                  <li><a class="list-group-item list-group-item-action" href="#contact">تواصل معنا</a></li>
+                </ul>
+              </div>
+
+
+
+              <div class="header2-buttons">
+                <div class="button">
+                  <a class="theme-btn1" href="contact.html"> تواصل معنا <span><i
+                        class="fa-solid fa-arrow-right"></i></span></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--=====HEADER END=======-->
+
+  <!--=====Mobile header start=======-->
+  <div class="mobile-header mobile-header-main d-block d-lg-none ">
+    <div class="container-fluid">
+      <div class="col-12">
+        <div class="mobile-header-elements">
+          <div class="mobile-logo">
+            <a href="index1.html"><img src="assets/img/logo/header-logo1.png" alt=""></a>
+          </div>
+          <div class="mobile-nav-icon">
+            <i class="fa-duotone fa-bars-staggered"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mobile-sidebar d-block d-lg-none">
+    <div class="logo-m">
+      <a href="index.html"><img src="assets/img/logo/header-logo1.png" alt=""></a>
+    </div>
+    <div class="menu-close">
+      <i class="fa-solid fa-xmark"></i>
+    </div>
+    <div class="mobile-nav">
+      <ul>
+        <li><a class="list-group-item list-group-item-action" href="#hero">الرئيسية</a></li>
+        <li><a class="list-group-item list-group-item-action" href="#why">لماذا نحن</a></li>
+        <li><a class="list-group-item list-group-item-action" href="#cars">السيارات</a></li>
+        <li><a class="list-group-item list-group-item-action" href="#contact">تواصل معنا</a></li>
+      </ul>
+      <div class="header2-buttons">
+        <div class="button">
+          <a class="theme-btn1" href="contact.html"> تواصل معنا <span><i
+                class="fa-solid fa-arrow-right"></i></span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!--=====Mobile header end=======-->
+
+
+  <!--=====HERO AREA START =======-->
+
+  <div class="hero-area1" id="hero">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="main-heading">
+            <span class="span" data-aos="fade-right" data-aos-duration="800">جبقجي لتجارة السيارات الكورية</span>
+            <h1 class="">استيراد من كوريا إلى الشرق الأوسط</h1>
+            <div class="space16"></div>
+            <p data-aos="fade-right" data-aos-duration="1000">
+              نوفر لك أفضل السيارات الكورية بأسعار منافسة وجودة عالية،<br>
+              مع تسهيل كامل لإجراءات الشحن والتوصيل إلى جميع أنحاء الشرق الأوسط.
+            </p>
+
+            <div class="space30"></div>
+            <div class="hero1-buttons" data-aos="fade-right" data-aos-duration="1200">
+              <a class="theme-btn1" href="service.html"> تواصل معنا <span><i
+                    class="fa-solid fa-arrow-right"></i></span></a>
+              <a class="theme-btn2" href="service.html">اكتشف المزيد <span><i
+                    class="fa-solid fa-arrow-right"></i></span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="hero1-images">
+            <div class="image1">
+              <img src="assets/img/bg/hero1-main-bg.png" alt="">
+            </div>
+            <div class="image2 overlay-anim" data-aos="zoom-in-up" data-aos-duration="700">
+              <img src="assets/img/about/cars.png" alt="">
+            </div>
+            <div class="image3 shape-animaiton2" data-aos="zoom-in-up" data-aos-duration="700">
+              <!-- <img src="assets/img/shapes/review-img.png" alt=""> -->
+            </div>
+            <div class="image4 shape-animaiton3">
+              <img src="assets/img/shapes/hero1-shape.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--=====HERO AREA END=======-->
+
+  <!--=====HERO SLIDER AREA END=======-->
+
+  <div class="hero1-slider">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="logo-slider">
+            <div class="single-slider">
+              <img src="assets/img/logo/slider-logo1.png" alt="">
+            </div>
+            <div class="single-slider">
+              <img src="assets/img/logo/slider-logo2.png" alt="">
+            </div>
+            <div class="single-slider">
+              <img src="assets/img/logo/slider-logo3.png" alt="">
+            </div>
+            <div class="single-slider">
+              <img src="assets/img/logo/slider-logo4.png" alt="">
+            </div>
+            <div class="single-slider">
+              <img src="assets/img/logo/slider-logo5.png" alt="">
+            </div>
+            <div class="single-slider">
+              <img src="assets/img/logo/slider-logo6.png" alt="">
+            </div>
+            <div class="single-slider">
+              <img src="assets/img/logo/slider-logo7.png" alt="">
+            </div>
+            <div class="single-slider">
+              <img src="assets/img/logo/slider-logo1.png" alt="">
+            </div>
+            <div class="single-slider">
+              <img src="assets/img/logo/slider-logo2.png" alt="">
+            </div>
+            <div class="single-slider">
+              <img src="assets/img/logo/slider-logo3.png" alt="">
+            </div>
+            <div class="single-slider">
+              <img src="assets/img/logo/slider-logo4.png" alt="">
+            </div>
+            <div class="single-slider">
+              <img src="assets/img/logo/slider-logo5.png" alt="">
+            </div>
+            <div class="single-slider">
+              <img src="assets/img/logo/slider-logo6.png" alt="">
+            </div>
+            <div class="single-slider">
+              <img src="assets/img/logo/slider-logo7.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--=====HERO SLIDER AREA END=======-->
+
+  <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+
+    <!--=====ABOUT AREA START=======-->
+
+    <div class="chosse1 sp" style="background-color: #e9ecef;" id="why">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-2">
+            <div class="" data-aos="zoom-in-up" data-aos-duration="700">
+              <div class="icon-box">
+                <div class="icon">
+                  <img src="assets/img/icons/choose1-icon1.png" alt="">
+                </div>
+                <div class="heading1">
+                  <h3><span class="counter">98</span>%</h3>
+                  <div class="space10"></div>
+                  <p>رضا العملاء</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="" data-aos="zoom-in-up" data-aos-duration="900">
+              <div class="icon-box">
+                <div class="icon">
+                  <img src="assets/img/icons/choose1-icon2.png" alt="">
+                </div>
+                <div class="heading1">
+                  <h3><span class="counter">79</span>%</h3>
+                  <div class="space10"></div>
+                  <p>مستشارو الفريق</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="" data-aos="zoom-in-up" data-aos-duration="1200">
+              <div class="icon-box icon-box2">
+                <div class="icon">
+                  <img src="assets/img/icons/choose1-icon3.png" alt="">
+                </div>
+                <div class="heading1">
+                  <h3><span class="counter">12</span>+</h3>
+                  <div class="space10"></div>
+                  <p>سنوات الخبرة</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-5">
+            <div class="image reveal overlay-anim">
+              <img src="assets\img\about\rrmc-homepage-ghost-share-image.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="heading1 choose1-heading">
+              <span class="span" data-aos="fade-left" data-aos-duration="700">لماذا تختارنا؟</span>
+              <h2 class="">اختر التميز – نوفّر لك الأفضل من كوريا</h2>
+              <div class="space16"></div>
+              <p data-aos="fade-left" data-aos-duration="900">
+                نمتلك خبرة واسعة في استيراد السيارات الكورية، ونعمل على تقديم أفضل الحلول لتوفير سيارات موثوقة وبأسعار
+                تنافسية تناسب السوق في الشرق الأوسط.
+              </p>
+
+              <div class="space10"></div>
+              <div class="row" data-aos="fade-left" data-aos-duration="800">
+                <div class="col-lg-6">
+                  <ul class="icon-list">
+                    <li><span><i class="fa-solid fa-check"></i></span> مجموعة متنوعة من السيارات</li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul class="icon-list">
+                    <li><span><i class="fa-solid fa-check"></i></span> خبراء محترفون في الاستيراد</li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul class="icon-list">
+                    <li><span><i class="fa-solid fa-check"></i></span> خدمات إلكترونية متكاملة</li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul class="icon-list">
+                    <li><span><i class="fa-solid fa-check"></i></span> قصص نجاح عملائنا</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="space30"></div>
+              <div class="" data-aos="fade-left" data-aos-duration="1100">
+                <!-- <a class="theme-btn1" href="about.html">من نحن <span><i class="fa-solid fa-arrow-right"></i></span></a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--=====ABOUT AREA END=======-->
+
+    <!--=====SERVICE AREA START=======-->
+
+    <!-- <div class="service1 sp" id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 m-auto text-center">
+            <div class="heading1-w">
+              <span class="span" data-aos="zoom-in-left" data-aos-duration="700">Our Service </span>
+              <h2 class="text-anime-style-3">Tailored Solutions for Your Hiring Needs</h2>
+              <div class="space16"></div>
+              <p data-aos="fade-left" data-aos-duration="800"> With our proven track record and commitment to
+                excellence, we're here to support your <br> organization's growth and help you achieve your hiring
+                goals.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="space30"></div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="service1-box" data-aos="zoom-in-up" data-aos-duration="700">
+              <div class="image overlay-anim">
+                <img src="assets/img/service/service1-img1.png" alt="">
+              </div>
+              <div class="hover-area">
+                <div class="icon">
+                  <img src="assets/img/icons/service1-icon1.png" alt="">
+                </div>
+                <div class="space16"></div>
+                <div class="heading1-w">
+                  <h4><a href="service-details.html">Executive Search Services</a></h4>
+                  <div class="space16"></div>
+                  <p>Whether you're looking for temporary staffing, direct hire placements, </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service1-box active" data-aos="zoom-in-up" data-aos-duration="900">
+              <div class="image overlay-anim">
+                <img src="assets/img/service/service1-img2.png" alt="">
+              </div>
+              <div class="hover-area">
+                <div class="icon">
+                  <img src="assets/img/icons/service1-icon2.png" alt="">
+                </div>
+                <div class="space16"></div>
+                <div class="heading1-w">
+                  <h4><a href="service-details.html">HR Consulting & Staffing</a></h4>
+                  <div class="space16"></div>
+                  <p>Whether you're looking for temporary staffing, direct hire placements, </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service1-box" data-aos="zoom-in-up" data-aos-duration="1100">
+              <div class="image overlay-anim">
+                <img src="assets/img/service/service1-img3.png" alt="">
+              </div>
+              <div class="hover-area">
+                <div class="icon">
+                  <img src="assets/img/icons/service1-icon3.png" alt="">
+                </div>
+                <div class="space16"></div>
+                <div class="heading1-w">
+                  <h4><a href="service-details.html">Temporary Staffing Services</a></h4>
+                  <div class="space16"></div>
+                  <p>Whether you're looking for temporary staffing, direct hire placements, </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="space50"></div>
+          <div class="col-lg-12">
+            <div class="text-center" data-aos="zoom-in-up" data-aos-duration="700">
+              <a class="theme-btn3" href="service.html">Let’s get started <span><i
+                    class="fa-solid fa-arrow-right"></i></span></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div> -->
+
+    <!--=====SERVICE AREA END=======-->
+
+    <!--=====PROJECT AREA START=======-->
+
+  
+
+    <!--=====PROJECT AREA END=======-->
+
+
+    <!--=====PROJECT AREA START=======-->
+
+
+
+    <!--=====PROJECT AREA END=======-->
+
+    <!--=====WORK AREA START=======-->
+
+  
+
+    <!--=====WORK AREA END=======-->
+
+    <!--=====TESTIMONIAL AREA START=======-->
+
+    <!-- <div class="tes1 sp" id="testimonial">
+      <div class="container">
+        <div class="row align-items-end">
+          <div class="col-lg-6">
+            <div class="heading1">
+              <span class="span" data-aos="zoom-in-left" data-aos-duration="800">Testimonial</span>
+              <h2 class="text-anime-style-3">Real Stories, Real Results </h2>
+              <div class="space16"></div>
+              <p data-aos="fade-left" data-aos-duration="800">Discover why businesses trust us to find the right talent
+                and candidates trust us to find the perfect fit.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="tes7-buttons" data-aos="fade-right" data-aos-duration="900">
+              <button class="testimonial-prev-arrow1"><i class="fa-regular fa-arrow-left"></i></button>
+              <button class="testimonial-next-arrow1"><i class="fa-regular fa-arrow-right"></i></button>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="space30"></div>
+        <div class="row">
+          <div class="tes1-slider" data-aos="fade-up" data-aos-duration="900">
+            <div class="single-slider">
+              <div class="row">
+                <div class="col-md-8">
+                  <ul class="stars">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                  </ul>
+                  <div class="pera">
+                    <p>“But don't just take our word for it—hear what our satisfied clients have to say. From Fortune
+                      500 companies to small”</p>
+                  </div>
+                  <div class="bottom-heading">
+                    <h4><a href="#">Amir Jamil</a></h4>
+                    <p>Vp,Daily Naws</p>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="tes1-image">
+                    <img src="assets/img/testimonial/tes1-img1.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="single-slider">
+              <div class="row">
+                <div class="col-md-8">
+                  <ul class="stars">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                  </ul>
+                  <div class="pera">
+                    <p>“Our dedication to excellence, and commitment to building long-lasting partnerships have”</p>
+                  </div>
+                  <div class="bottom-heading">
+                    <h4><a href="#">Usman Khan</a></h4>
+                    <p>Co Funder</p>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="tes1-image">
+                    <img src="assets/img/testimonial/tes1-img2.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="single-slider">
+              <div class="row">
+                <div class="col-md-8">
+                  <ul class="stars">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                  </ul>
+                  <div class="pera">
+                    <p>“But don't just take our word for it—hear what our satisfied clients have to say. From Fortune
+                      500 companies to small”</p>
+                  </div>
+                  <div class="bottom-heading">
+                    <h4><a href="#">Amir Jamil</a></h4>
+                    <p>Vp,Daily Naws</p>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="tes1-image">
+                    <img src="assets/img/testimonial/tes1-img1.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="single-slider">
+              <div class="row">
+                <div class="col-md-8">
+                  <ul class="stars">
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                  </ul>
+                  <div class="pera">
+                    <p>“Our dedication to excellence, and commitment to building long-lasting partnerships have”</p>
+                  </div>
+                  <div class="bottom-heading">
+                    <h4><a href="#">Usman Khan</a></h4>
+                    <p>Co Funder</p>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="tes1-image">
+                    <img src="assets/img/testimonial/tes1-img2.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!--=====TESTIMONIAL AREA END=======-->
+
+    <!--=====CONTACT AREA START=======-->
+<!-- 
+    <div class="contact1 sp" id="contact">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="heading1-w">
+              <span class="span" data-aos="zoom-in-left" data-aos-duration="700">Contact Us</span>
+              <h2 class="text-anime-style-3">Get in Touch Let's Start the Conversation</h2>
+              <div class="space16"></div>
+              <p data-aos="fade-right" data-aos-duration="900">We're here to help you find the right staffing solutions
+                for your needs. Whether you're a company looking to hire top talent or a candidate seeking your next
+                career opportunity,</p>
+
+              <div class="" data-aos="fade-right" data-aos-duration="800">
+                <div class="contact1-box">
+                  <div class="icon">
+                    <img src="assets/img/icons/contact-icon1.png" alt="">
+                  </div>
+                  <div class="heading">
+                    <p>Gives us a Call</p>
+                    <a href="tel:123-456-7890">123-456-7890</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="" data-aos="fade-right" data-aos-duration="1100">
+                <div class="contact1-box">
+                  <div class="icon">
+                    <img src="assets/img/icons/contact-icon2.png" alt="">
+                  </div>
+                  <div class="heading">
+                    <p>Send me Mail</p>
+                    <a href="mailto:recrute@hotmail.com">recrute@hotmail.com</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="contact1-form" data-aos="zoom-out" data-aos-duration="900">
+              <div class="heading1">
+                <h3>Send us a Message</h3>
+                <div class="space16"></div>
+                <p>Feel free to reach out to us with any questions, inquiries, or staffing requirements you may have.
+                  Our experienced</p>
+              </div>
+              <div class="space10"></div>
+
+              <form action="#">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="single-input">
+                      <input type="text" placeholder="First Name">
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="single-input">
+                      <input type="text" placeholder="Last Name">
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="single-input">
+                      <input type="email" placeholder="Email">
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="single-input">
+                      <input type="number" placeholder="Phone">
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <div class="single-input">
+                      <input type="text" placeholder="Subject">
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <div class="single-input">
+                      <textarea rows="4" placeholder="Message"></textarea>
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <div class="button">
+                      <button class="theme-btn1">Submit Now <span><i
+                            class="fa-solid fa-arrow-right"></i></span></button>
+                    </div>
+                  </div>
+
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div> -->
+
+    <!--=====CONTACT AREA END=======-->
+
+    <!--=====TEAM AREA START=======-->
+
+    <!-- <div class="team1 sp">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 m-auto text-center">
+            <div class="heading1">
+              <span class="span" data-aos="zoom-in-left" data-aos-duration="800">Our Team</span>
+              <h2 class="text-anime-style-3">Get to Know Our Professionals</h2>
+              <div class="space16"></div>
+              <p data-aos="fade-up" data-aos-duration="700">We take pride in fostering a collaborative environment where
+                innovation <br> thrives and clients receive personalized attention at every step </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="space30"></div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="team1-box overlay-anim" data-aos="zoom-in-up" data-aos-duration="700">
+              <div class="image">
+                <img src="assets/img/team/team1-img1.png" alt="">
+              </div>
+              <div class="heading-area">
+                <div class="heading1">
+                  <h4><a href="#">Sameer Rizvi</a></h4>
+                  <p>Senior Consultant</p>
+                </div>
+
+                <div class="icons">
+                  <ul>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="team1-box overlay-anim" data-aos="zoom-in-up" data-aos-duration="900">
+              <div class="image">
+                <img src="assets/img/team/team1-img2.png" alt="">
+              </div>
+              <div class="heading-area">
+                <div class="heading1">
+                  <h4><a href="#">Arshin Kulkarni</a></h4>
+                  <p>VP, Finance</p>
+                </div>
+
+                <div class="icons">
+                  <ul>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6">
+            <div class="team1-box overlay-anim" data-aos="zoom-in-up" data-aos-duration="1100">
+              <div class="image">
+                <img src="assets/img/team/team1-img1.png" alt="">
+              </div>
+              <div class="heading-area">
+                <div class="heading1">
+                  <h4><a href="#">Rachin Ravindra</a></h4>
+                  <p>Senior Consultant</p>
+                </div>
+
+                <div class="icons">
+                  <ul>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div> -->
+
+    <!--=====TEAM AREA END=======-->
+    <div class="car-container" data-aos="zoom-in-up" data-aos-duration="700" style="padding-top: 100px; padding-bottom: 100px;" id="cars">
+      <div class="car-card">
+          <img src="assets\img\about\rrmc-homepage-ghost-share-image.jpg" alt="Car Image">
+          <h2>Rolls Royce P...</h2>
+          <p class="price">$900,000</p>
+          <div class="car-info">
+              <span><i class="fas fa-gas-pump"></i> Diesel</span>
+              <span><i class="fas fa-car"></i> Coupe</span>
+              <span><i class="fas fa-road"></i> 6 KMPL</span>
+              <span><i class="fas fa-cogs"></i> Automatic</span>
+          </div>
+      </div>
+      
+      <div class="car-card">
+          <img src="assets\img\about\front-left-side-47.avif" alt="Car Image">
+          <h2>Audi A4</h2>
+          <p class="price">$50,000</p>
+          <div class="car-info">
+              <span><i class="fas fa-gas-pump"></i> Petrol</span>
+              <span><i class="fas fa-car"></i> Coupe</span>
+              <span><i class="fas fa-road"></i> 10 KMPL</span>
+              <span><i class="fas fa-cogs"></i> Manual</span>
+          </div>
+      </div>
+      <div class="car-card">
+          <img src="assets\img\about\purosangue-suv-exterior-left-side-view (1).webp" alt="Car Image">
+          <h2>Audi A4</h2>
+          <p class="price">$50,000</p>
+          <div class="car-info">
+              <span><i class="fas fa-gas-pump"></i> Petrol</span>
+              <span><i class="fas fa-car"></i> Coupe</span>
+              <span><i class="fas fa-road"></i> 10 KMPL</span>
+              <span><i class="fas fa-cogs"></i> Manual</span>
+          </div>
+      </div>
+      <div class="car-card">
+          <img src="assets\img\about\purosangue-suv-exterior-left-side-view (1).webp" alt="Car Image">
+          <h2>Audi A4</h2>
+          <p class="price">$50,000</p>
+          <div class="car-info">
+              <span><i class="fas fa-gas-pump"></i> Petrol</span>
+              <span><i class="fas fa-car"></i> Coupe</span>
+              <span><i class="fas fa-road"></i> 10 KMPL</span>
+              <span><i class="fas fa-cogs"></i> Manual</span>
+          </div>
+      </div>
+      <div class="car-card">
+          <img src="assets\img\about\78442814.webp" alt="Car Image">
+          <h2>Audi A4</h2>
+          <p class="price">$50,000</p>
+          <div class="car-info">
+              <span><i class="fas fa-gas-pump"></i> Petrol</span>
+              <span><i class="fas fa-car"></i> Coupe</span>
+              <span><i class="fas fa-road"></i> 10 KMPL</span>
+              <span><i class="fas fa-cogs"></i> Manual</span>
+          </div>
+      </div>
+      <div class="car-card">
+          <img src="assets\img\about\Mahindra-Thar.e-Front.jpg" alt="Car Image">
+          <h2>Audi A4</h2>
+          <p class="price">$50,000</p>
+          <div class="car-info">
+              <span><i class="fas fa-gas-pump"></i> Petrol</span>
+              <span><i class="fas fa-car"></i> Coupe</span>
+              <span><i class="fas fa-road"></i> 10 KMPL</span>
+              <span><i class="fas fa-cogs"></i> Manual</span>
+          </div>
+      </div>
+      <div class="car-card">
+          <img src="assets\img\about\wxrwhrcuxbtgfkvalnir.webp" alt="Car Image">
+          <h2>Audi A4</h2>
+          <p class="price">$50,000</p>
+          <div class="car-info">
+              <span><i class="fas fa-gas-pump"></i> Petrol</span>
+              <span><i class="fas fa-car"></i> Coupe</span>
+              <span><i class="fas fa-road"></i> 10 KMPL</span>
+              <span><i class="fas fa-cogs"></i> Manual</span>
+          </div>
+      </div>
+      <div class="car-card">
+          <img src="assets\img\about\560963-bmw-x5-et-x6-2024-plus-de-puissance-et-d-autonomie-electrique.jpeg" alt="Car Image">
+          <h2>Audi A4</h2>
+          <p class="price">$50,000</p>
+          <div class="car-info">
+              <span><i class="fas fa-gas-pump"></i> Petrol</span>
+              <span><i class="fas fa-car"></i> Coupe</span>
+              <span><i class="fas fa-road"></i> 10 KMPL</span>
+              <span><i class="fas fa-cogs"></i> Manual</span>
+          </div>
+      </div>
+  </div>
+    <!--=====BLOG AREA START=======-->
+
+    <!-- <div class="blog1 sp" id="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 m-auto text-center">
+            <div class="heading1">
+              <span class="span" data-aos="zoom-in-left" data-aos-duration="800">Our Blog</span>
+              <h2 class="text-anime-style-3"> Flash Your Source for Industry Updates</h2>
+              <div class="space16"></div>
+              <p data-aos="fade-up" data-aos-duration="800">Our blog serves as a valuable resource for both job seekers
+                and employers, offering insightful <br> articles, industry trends, and expert tips on everything from
+                resume</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="space30"></div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="blog1-box overlay-anim" data-aos="zoom-in-up" data-aos-duration="800">
+              <div class="image">
+                <img src="assets/img/blog/blog1-img1.png" alt="">
+              </div>
+              <div class="heading-area">
+                <div class="tags">
+                  <a href="#"><img src="assets/img/icons/date.png" alt=""> Apl 2,2024</a>
+                  <a href="#"><img src="assets/img/icons/user.png" alt=""> By Ethan Smith</a>
+                </div>
+                <div class="heading1">
+                  <h4><a href="blog-details.html">Get the Scoop: Our Latest News & Announcements</a></h4>
+                  <div class="space16"></div>
+                  <p>Whether you're looking to navigate your career path or enhance</p>
+                  <div class="blog1-border"></div>
+                  <a href="blog-details.html" class="learn">Learn More <span><i
+                        class="fa-solid fa-arrow-right"></i></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="blog1-box overlay-anim" data-aos="zoom-in-up" data-aos-duration="900">
+              <div class="image">
+                <img src="assets/img/blog/blog1-img2.png" alt="">
+              </div>
+              <div class="heading-area">
+                <div class="tags">
+                  <a href="#"><img src="assets/img/icons/date.png" alt=""> Apl 2,2024</a>
+                  <a href="#"><img src="assets/img/icons/user.png" alt=""> By Ethan Smith</a>
+                </div>
+                <div class="heading1">
+                  <h4><a href="blog-details.html">Industry Insights: Latest News & Developments</a></h4>
+                  <div class="space16"></div>
+                  <p>Our blog serves as a valuable resource for both job seekers and employers</p>
+                  <div class="blog1-border"></div>
+                  <a href="blog-details.html" class="learn">Learn More <span><i
+                        class="fa-solid fa-arrow-right"></i></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div> -->
+
+    <!--=====BLOG AREA END=======-->
+
+  </div>
+
+  <!--===== CTA AREA START =======-->
+
+  <!-- <div class="cta">
+    <div class="container">
+      <div class="row cta-border align-items-center">
+        <div class="col-lg-6">
+          <div class="heading1-w">
+            <h2>Ready to Power up your Savings and Reliability?</h2>
+            <div class="space16"></div>
+            <p>Feel free to customize this paragraph to better reflect the <br> specific services offered by your IT
+              solution & the unique </p>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="subscribe-area">
+            <form action="#">
+              <input type="email" placeholder="Email Address">
+              <div class="button">
+                <button type="submit" class="theme-btn1">Subscribe Now <span><i
+                      class="fa-solid fa-arrow-right"></i></span></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!--===== CTA AREA START =======-->
+
+  <!--===== FOOTER AREA START =======-->
+
+  <div class="footer1 _relative">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 fav">
+                <div class="single-footer-items footer-logo-area">
+                    <div class="footer-logo">
+                        <a href=""><img src="assets/img/logo/footer-logo1.png" alt="جبقجي لتجارة السيارات"></a>
+                    </div>
+                    <div class="space20"></div>
+                    <div class="heading1-w">
+                        <p>هدفنا هو تبسيط عملية الاستيراد، وتقديم حلول موثوقة لتلبية احتياجاتك في عالم السيارات الكورية.</p>
+                    </div>
+                    <ul class="social-icon">
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+       
+            <div class="col-lg col-md-8 col-12 move-left"  style="transform: translateX(-20%);" >
+                <div class="single-footer-items pl-5">
+                    <h3>استكشف</h3>
+                    <ul class="menu-list">
+                      <li><a  href="#hero">الرئيسية</a></li>
+                      <li><a href="#why">لماذا نحن</a></li>
+                      <li><a  href="#cars">السيارات</a></li>
+                      <li><a  href="#contact">تواصل معنا</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-12 move-right" style="transform: translateX(70%);">
+                <div class="single-footer-items">
+                    <h3>تواصل معنا</h3>
+                    <div class="contact-box">
+                        <div class="icon">
+                            <img src="assets/img/icons/footer-icon1.png" alt="الهاتف">
+                        </div>
+                        <div class="pera">
+                            <a href="tel:+20123456789">+20 123 456 789</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-box">
+                        <div class="icon">
+                            <img src="assets/img/icons/footer-icon2.png" alt="البريد الإلكتروني">
+                        </div>
+                        <div class="pera">
+                            <a href="mailto:info@jabakji.com">info@jabakji.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-box">
+                        <div class="icon">
+                            <img src="assets/img/icons/footer-icon3.png" alt="الموقع">
+                        </div>
+                        <div class="pera">
+                            <a href="#">شارع 8502، منطقة الاستيراد، كوريا الجنوبية</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="space70"></div>
+    </div>
+
+    <div class="copyright-area _relative">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12">
+                    <div class="coppyright">
+                        <p> © جميع الحقوق محفوظة - جبقجي لتجارة السيارات 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+  <!--===== FOOTER AREA END =======-->
+
+
+
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/fontawesome.js"></script>
+  <script src="assets/js/mobile-menu.js"></script>
+  <script src="assets/js/jquery.magnific-popup.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/slick-slider.js"></script>
+  <script src="assets/js/gsap.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="assets/js/jquery.countup.js"></script>
+  <script src="assets/js/ScrollTrigger.min.js"></script>
+  <script src="assets/js/Splitetext.js"></script>
+  <script src="assets/js/SmoothScroll.js"></script>
+  <script src="assets/js/text-animation.js"></script>
+  <script src="assets/js/jquery.lineProgressbar.js"></script>
+  <script src="assets/js/tilt.jquery.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
